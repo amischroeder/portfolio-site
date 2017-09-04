@@ -1,10 +1,9 @@
-<h1>Repos</h1>
-<h4>Check out my repos below!</h4>
-<a href="#/">Home</a>
-<br>
-<br>
-<div ng-repeat="thing in uc.repos.data">
- <a href="{{thing.html_url}}">{{thing.name}}</a> 
+<div id ="repos">
+    <h1>Repos</h1>
+    <h4>Check out my repos below!</h4>
+    <h1><a href="#/"><i class="fa fa-home" aria-hidden="true"></i></a></h1>
+    <div ng-repeat="thing in uc.repos.data">
+        <a href="{{thing.html_url}}">{{thing.name}}</a>
 
+    </div>
 </div>
-

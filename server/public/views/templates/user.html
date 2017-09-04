@@ -1,10 +1,11 @@
 <h1>Welcome to my Github Profile Page</h1>
  <img src= "{{uc.user.data.avatar_url}}"> 
  <br>
-<a href="#repos">Github Repos</a>
+<!-- <a href="#repos">Github Repos</a> -->
 <div>
-  <h4>Github url:</h4>{{uc.user.data.html_url}}
-  <h4>Email:</h4>{{uc.user.data.email}}
+  <h2>{{uc.user.data.name}} <a href="mailto:{{uc.user.data.email}}" target="_top"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> <a href="{{uc.user.data.html_url}}"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
+  <h4>{{uc.user.data.location}} </h4>
+  <h4>Bio: {{uc.user.data.bio}} Check out my <a href="#repos">Github Repos</a></h4>
 </div>
 
 
