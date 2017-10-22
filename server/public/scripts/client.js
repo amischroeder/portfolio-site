@@ -8,6 +8,12 @@ myApp.config(function($routeProvider, $locationProvider) {
     .when('/', {
       templateUrl: '/views/templates/user.html',
       controller: 'UserController as uc',
+    }).when('/user', {
+      templateUrl: '/views/templates/user.html',
+      controller: 'UserController as uc',
+    }).when('/about', {
+      templateUrl: '/views/templates/about.html',
+      controller: 'UserController as uc',
     }).when('/repos', {
       templateUrl: 'views/templates/repos.html',
       controller: 'UserController as uc'

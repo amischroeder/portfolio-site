@@ -1,10 +1,15 @@
-<h1>Welcome to my Github Profile Page</h1>
- <img src= "{{uc.user.data.avatar_url}}"> 
-<!-- <a href="#repos">Github Repos</a> -->
-<div>
-  <h2>{{uc.user.data.name}} <a href="mailto:{{uc.user.data.email}}" target="_top"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> <a href="{{uc.user.data.html_url}}"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
-  <h4>{{uc.user.data.location}} </h4>
-  <h4>Bio: {{uc.user.data.bio}} Check out my <a href="#repos">Github Repos</a></h4>
+<div ng-include="'views/templates/nav.html'"></div>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<div id="contact">
+  <h2>{{uc.user.data.name}}</h2>
+  <h2>St. Paul/Minneapolis</h2>
+  <h2><a href="tel:+6513233113"><i class="fa fa-phone" aria-hidden="true"></i> 651.323.3113</a></h2>
+  <h2><a href="mailto:{{uc.user.data.email}}" target="_top"><i class="fa fa-envelope-o" aria-hidden="true"></i> arschroeder22@gmail.com</a></h2> 
+  <h2><a href="{{uc.user.data.html_url}}"><i class="fa fa-github" aria-hidden="true"></i> github.com/amischroeder</a></h2>
 </div>
 
 
