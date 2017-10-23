@@ -6,13 +6,10 @@ myApp.config(function($routeProvider, $locationProvider) {
 
   $routeProvider
     .when('/', {
-      templateUrl: '/views/templates/user.html',
+      templateUrl: '/views/templates/about.html',
       controller: 'UserController as uc',
     }).when('/user', {
       templateUrl: '/views/templates/user.html',
-      controller: 'UserController as uc',
-    }).when('/about', {
-      templateUrl: '/views/templates/about.html',
       controller: 'UserController as uc',
     }).when('/repos', {
       templateUrl: 'views/templates/repos.html',
