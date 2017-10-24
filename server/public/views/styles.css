@@ -40,24 +40,8 @@ a {
 
 h1 {
     text-align: center;
-    font-size: 6em;
 }
 
-h2 {
-    font-size: 3em;
-}
-
-h3 {
-    font-size: 3em;
-}
-
-h4 {
-    font-size: 2em;
-}
-
-h5 {
-    font-size: 1em;
-}
 
 .me {
     display: block;
@@ -86,7 +70,7 @@ h5 {
 }
 
 .carousel-caption {
-    position: absolute;
+    /* position: absolute; */
     bottom: 200px;
     right: 10%;
     left: auto;
