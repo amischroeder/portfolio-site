@@ -43,7 +43,7 @@ h1 {
 }
 
 
-.me {
+.image-resposive {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -53,9 +53,10 @@ h1 {
     height: 200%;
 }
 
-.wrapper {
-    width:100%;
-    height: 100%;
+.img-responsive {
+    width:100% !important;
+    /* height: 100%; */
+    position: relative;
 }
 
 .body {
@@ -70,11 +71,45 @@ h1 {
 }
 
 .carousel-caption {
-    /* position: absolute; */
-    bottom: 200px;
+    position: absolute !important;
+    /* bottom: 200px; */
+    bottom: 30% !important;
+    top:30% !important;
     right: 10%;
     left: auto;
     width: 50%;
-    /* max-height: 100%; */
+    /* max-height: 70%; */
+    height: 50%;
     background-color: rgba(192,192,192,0.6);
 }
+
+/* .thumbnail {
+    position: relative;
+} */
+
+.caption {
+    position: absolute;
+    top: 55%;
+    bottom:10%;
+    left: 0;
+    width: 100%;
+    color: black;
+    background-color: rgba(192,192,192,0.6);
+}
+
+.image { 
+    position: relative !important; 
+    width: 100% !important; 
+    height: 100% !important;
+ }
+ 
+ .text { 
+    position: absolute; 
+    /* top: 200px;  */
+    top: 35%;
+    right: 0; 
+    width: 60%; 
+    color:white;
+    background-color: rgba(192,192,192,0.6);
+    text-align: center;
+ }
