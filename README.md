@@ -4,10 +4,10 @@ This is for my personal portfolio site. Derived from assignment at Prime to make
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-###Prerequisites
+### Prerequisites
 To run this code, you will first need to install [Node.js](https://nodejs.org/en/)
 
-###Installing
+### Installing
 Clone this repository
 
 Install Node.js
@@ -31,8 +31,8 @@ localhost:5000
 * [Node.js](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
 * [Angular](https://angularjs.org/)
-* [Bootstrap] (http://getbootstrap.com/)
+* [Bootstrap](http://getbootstrap.com/)
 
-##Authors
+## Authors
 * Ami Schroeder
 
